@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Large files
+*.srs
+*.pth
+KDDTrain+.txt
+KDDTest+.txt
+
+# Sensitive keys
+*.key
+
+# Auto-generated
+*.compiled
+witness.json
+proof.json
+proof_5.json
+witness_5.json
+calldata_5.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
